@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mountain1{
+    @apply absolute lg:bottom-[-200px] lg:right-0 lg:h-auto z-40 
+}
+.mountain2{
+    @apply absolute lg:bottom-[-280px] lg:w-[1000px] lg:left-0 lg:h-auto z-30
+}
+.mountain3{
+   @apply absolute lg:bottom-[60px] lg:h-[465px] lg:right-0 z-20
+}
+.sky{
+    @apply absolute  lg:top-0 lg:w-[1366px] lg:right-0 z-10 
+}
